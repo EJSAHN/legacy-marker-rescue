@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+.DS_Store
+/data/sources/*.pdf
+/data/raw/
+/results/**
+!/results/.gitkeep
+*.msh
+*.zip
