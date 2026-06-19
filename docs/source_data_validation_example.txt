@@ -1,0 +1,27 @@
+Source-data validation passed
+- WGS pairwise comparisons: 253
+- RAPD-vs-Mash Pearson r: 0.755982
+- RAPD-vs-Mash Spearman r: 0.636287
+- Minimum leave-one-assembly-out Spearman r: 0.521533
+- Gene overlap observed: 0.769078
+- Gene overlap matched-random mean: 0.65776
+- Contig-end 10 kb observed: 0.36555
+- Mean GC observed: 0.552272
+- Accepted random primer sets: 25
+- Historical total amplicons: 14630
+- Historical non-duplicate Spearman r: 0.295456
+- Historical fixed-core band fraction: 0.87234
+- Historical polymorphic band fraction: 0.0425532
+- Guthrie composite loci: 31
+- Guthrie published-summary RMSE: 2.49221
+- Guthrie legacy bands: 31
+- Guthrie bands with any modern bridge: 27
+- Guthrie any-bridge fraction: 0.870968
+- Guthrie polymorphic bridge bins: 6
+- Guthrie core-only bridge bins: 21
+- Guthrie no-modern-match bins: 4
+- Denoyes detected segments: 204
+- Denoyes OPC02 detected segments: 87
+- Denoyes OPA13 detected segments: 117
+- Denoyes retained nonzero sample lanes: 33
+- Denoyes manual-check sample lanes: 5
