@@ -1,0 +1,12 @@
+name: legacy-marker-rescue
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python>=3.10
+  - pandas
+  - pyyaml
+  - pillow
+  - pymupdf
+  - openpyxl
+  - mash

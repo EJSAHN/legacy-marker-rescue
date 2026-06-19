@@ -1,0 +1,9 @@
+[project]
+name = "legacy-marker-rescue"
+version = "0.1.0"
+description = "Uncertainty-aware recovery of legacy random-polymorphism marker figures as genome-calibrated band-size fingerprint archives."
+requires-python = ">=3.10"
+dependencies = ["pandas", "pyyaml", "pillow", "pymupdf", "openpyxl"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

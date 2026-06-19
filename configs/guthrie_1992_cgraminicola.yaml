@@ -1,0 +1,58 @@
+project:
+  output_dir: results/guthrie_1992_cgraminicola
+
+genomes:
+  fasta_inventory: data/metadata/cgraminicola_genome_fasta_inventory_clean.tsv
+  gff_inventory: data/metadata/cgraminicola_gff_inventory.tsv
+  mash_dist: data/external/mash_dist.tsv
+
+rapd:
+  primers:
+    primer1: TCGGGAGGGT
+    primer2: ACGCTCAAAC
+    primer3: AGAATCGGGG
+  max_mismatch_per_site: 1
+  max_amplicon_bp: 3000
+  band_relative_tolerance: 0.05
+  band_min_bp: 100
+  band_max_bp: 3500
+
+random_primer_null:
+  n_sets: 25
+  seed: 20260610
+  gc_matched_to: rapd.primers
+  max_amplicons_per_set: 50000
+  max_amplicons_per_assembly: 8000
+
+legacy_figure:
+  source_id: guthrie_1992
+  source_citation: "Guthrie et al. 1992"
+  pdf: data/sources/guthrie_1992.pdf
+  figure: Fig3_composite
+  page_index: 2
+  crop_box_pixels: [120, 470, 700, 1250]
+  axis_kb:
+    x0_pixel: 120
+    x25_pixel: 620
+    min_kb: 0.0
+    max_kb: 2.5
+  row_labels:
+    - ZIMMATD
+    - J15MALI
+    - MANSA
+    - TX430BB85
+    - ARKB1
+    - GA53.90
+    - VZM2BINDORE
+    - ICSV700
+    - IS18442PANT
+    - PRM36031
+    - PRTANS34
+    - PRA6
+    - JGBB85
+    - CTSPJG4
+    - CTSPJG1
+
+bridge:
+  tolerance_kb: 0.05
+  restrict_to_modern_polymorphic: false

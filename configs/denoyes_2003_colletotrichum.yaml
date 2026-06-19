@@ -1,0 +1,10 @@
+project:
+  output_dir: results/denoyes_2003_colletotrichum
+
+legacy_figure:
+  source_id: denoyes_rothan_2003
+  source_citation: "Denoyes-Rothan et al. 2003"
+  pdf: data/sources/denoyes_rothan_2003.pdf
+  figure: Fig1_OPC02_OPA13
+  page_index: 4
+  note: "Representative true-gel RAPD figure. Use as cross-layout digitization demonstration, not full 69-locus reconstruction."
