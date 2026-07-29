@@ -1,0 +1,14 @@
+Source-data validation passed
+- Assemblies: 22
+- RAPD/Mash pairwise comparisons: 231
+- RAPD-vs-Mash Pearson r: 0.758422
+- RAPD-vs-Mash Spearman r: 0.587353
+- Minimum leave-one-assembly-out Spearman r: 0.449944
+- Gene overlap observed/random: 0.774146 / 0.646716
+- Mean GC observed/random: 0.552284 / 0.526514
+- Historical amplicons: 13957
+- Accepted random primer sets: 25
+- Historical/random non-duplicate Spearman r: 0.299117 / 0.307356
+- Guthrie RMSE: 2.492207
+- Legacy bridge: 27/31; classes={'Polymorphic bridge': 6, 'Core-only bridge': 21, 'No modern match': 4}
+- Denoyes segments: 204; retained/manual-check lanes: 33/5

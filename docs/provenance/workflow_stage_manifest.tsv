@@ -1,0 +1,9 @@
+stage	public_stage_name	primary_public_evidence	local_inputs_required_for_full_rerun	public_validation_status
+1	Genome inventory	Supplementary Data S1 workbook; genome inventory metadata	NCBI Datasets genome package	validated through source-data workflow
+2	In-silico RAPD simulation	RAPD band-space tables in Supplementary Data S1	Genome FASTA files and primer configuration	validated through downstream source-data checks
+3	Mash genome-distance calibration	WGS distance pairs; WGS leave-one-out	Genome FASTA files and Mash executable	validated by recomputed Pearson/Spearman checks
+4	Genome-context comparison	Genome context summary	Genome FASTA/GFF files and observed amplicon table	validated by observed-vs-random summary checks
+5	Random-primer null	Random primer sets	Genome FASTA files and RAPD simulator	validated by accepted-set and historical-set checks
+6	Guthrie schematic digitization	Guthrie summary agreement	Source PDF or local figure rendering plus crop template	validated by composite-loci and RMSE checks
+7	Guthrie band-size bridge	Guthrie bridge tolerance; Guthrie bridge classes	Digitized legacy matrix and modern RAPD matrix	validated by bridge-class counts
+8	Denoyes matrix audit	Denoyes detected segments; Denoyes lane audit	Public-domain Denoyes source figure plus crop template	validated by segment and lane-audit counts
