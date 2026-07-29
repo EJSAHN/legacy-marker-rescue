@@ -1,6 +1,6 @@
 # Workflow provenance
 
-This directory is a provenance ledger for the manuscript workflow. It is not a raw-data rerun archive and does not contain publisher PDFs, figure crops, display-item drawing code, or exploratory troubleshooting scripts.
+This directory is a provenance ledger for the manuscript workflow. It is not a raw-data rerun archive and does not contain publisher PDFs, figure crops, figure-generation code, or exploratory troubleshooting scripts.
 
 The public repository is organized around two reproducibility layers:
 
