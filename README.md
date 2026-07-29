@@ -10,7 +10,7 @@ The public release separates three roles.
 
 1. **Reusable code.** `src/legacy_marker_rescue/` contains small utilities for sequence handling, in-silico RAPD simulation, distance comparison, digitized segment tables, random-primer generation, and band-size bridging.
 2. **Validation scripts.** `scripts/validate_source_data.py` recomputes headline manuscript values from the derived source-data workbook rather than copying summary cells. The `scripts/examples/` directory contains small illustrative scripts for local inputs.
-3. **Derived source data and provenance.** `source_data/Supplementary_Data_S1.xlsx` contains the tables underlying the manuscript display items. `docs/provenance/` maps manuscript analysis stages to the workbook sheets used for public validation.
+3. **Derived source data and provenance.** `source_data/Supplementary_Data_S1.xlsx` contains the tables underlying the manuscript figures and tables. `docs/provenance/` maps manuscript analysis stages to the workbook sheets used for public validation.
 
 The repository is **not** presented as a one-command reconstruction of every analysis from raw publisher PDFs. Raw publisher PDFs, figure crops, display-item drawing code, and exploratory troubleshooting scripts are not included.
 
@@ -25,7 +25,7 @@ python -m pip install -e .
 python scripts/validate_source_data.py --workbook source_data/Supplementary_Data_S1.xlsx
 ```
 
-The validator recomputes values from workbook rows and columns. Expected headline checks include 253 RAPD/Mash pairwise comparisons, RAPD-vs-Mash Pearson *r* approximately 0.76, Spearman *r* approximately 0.64, 31 Guthrie composite loci, 27/31 legacy bands with a modern band-size bridge, 6/31 with a modern-polymorphic bridge, and 204 Denoyes-Rothan first-pass detected segments.
+The validator recomputes values from workbook rows and columns. Expected headline checks include 231 RAPD/Mash pairwise comparisons, RAPD-vs-Mash Pearson *r* approximately 0.76, Spearman *r* approximately 0.59, 31 Guthrie composite loci, 27/31 legacy bands with a modern band-size bridge, 6/31 with a modern-polymorphic bridge, and 204 Denoyes-Rothan first-pass detected segments.
 
 ## Example implementation workflow
 
