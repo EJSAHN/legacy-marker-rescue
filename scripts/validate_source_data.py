@@ -230,7 +230,7 @@ def main() -> None:
     ]
     rmse = math.sqrt(mean(value * value for value in differences))
     composite_loci = max(int(row["Composite loci"]) for row in global_rows)
-    if int(main_table["Figure 3 composite loci"]["Value"]) != composite_loci:
+    if int(main_table["Composite schematic loci"]["Value"]) != composite_loci:
         raise AssertionError("Composite-locus count is inconsistent")
     rounded_close(
         rmse,
