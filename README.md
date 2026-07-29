@@ -54,4 +54,4 @@ The copy of `Supplementary_Data_S1.xlsx` in `source_data/` is included so that t
 
 ## Citation and archive DOI
 
-Temporary citation fields are provided in `CITATION.cff`. The GitHub repository URL is filled in; the Zenodo DOI can remain as `10.5281/zenodo.TBD` until an archival release is deposited.
+Temporary citation fields are provided in `CITATION.cff`. An archival DOI will be added after a versioned software release is deposited.
