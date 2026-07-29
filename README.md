@@ -12,7 +12,7 @@ The public release separates three roles.
 2. **Validation scripts.** `scripts/validate_source_data.py` recomputes headline manuscript values from the derived source-data workbook rather than copying summary cells. The `scripts/examples/` directory contains small illustrative scripts for local inputs.
 3. **Derived source data and provenance.** `source_data/Supplementary_Data_S1.xlsx` contains the tables underlying the manuscript figures and tables. `docs/provenance/` maps manuscript analysis stages to the workbook sheets used for public validation.
 
-The repository is **not** presented as a one-command reconstruction of every analysis from raw publisher PDFs. Raw publisher PDFs, figure crops, display-item drawing code, and exploratory troubleshooting scripts are not included.
+The repository is **not** presented as a one-command reconstruction of every analysis from raw publisher PDFs. Raw publisher PDFs, figure crops, figure-generation code, and exploratory troubleshooting scripts are not included.
 
 ## Quick validation
 
