@@ -16,4 +16,4 @@ Exact rerun scripts, if later released in a DOI archive, should be treated as pr
 
 ## What is intentionally excluded
 
-The public repository excludes raw publisher PDFs, publisher-owned figure crops, manuscript display-item drawing code, exploratory troubleshooting scripts, environment test scripts, and exploratory intermediate runs. This keeps the repository focused on reusable implementation, derived data, and auditable numerical validation.
+The public repository excludes raw publisher PDFs, publisher-owned figure crops, manuscript figure-generation code, exploratory troubleshooting scripts, environment test scripts, and exploratory intermediate runs. This keeps the repository focused on reusable implementation, derived data, and auditable numerical validation.
