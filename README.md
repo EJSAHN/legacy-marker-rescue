@@ -54,4 +54,4 @@ The copy of `Supplementary_Data_S1.xlsx` in `source_data/` is included so that t
 
 ## Citation and archive DOI
 
-Temporary citation fields are provided in `CITATION.cff`. An archival DOI will be added after a versioned software release is deposited.
+Citation metadata are provided in CITATION.cff. An archival DOI will be added after a versioned software release is deposited.
