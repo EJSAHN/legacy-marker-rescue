@@ -16,7 +16,7 @@ This repository stores derived data products rather than publisher-owned source 
 
 - raw publisher PDFs unless redistribution is explicitly permitted;
 - cropped publisher figures from copyrighted sources;
-- manuscript display-item drawing code;
+- manuscript figure-generation code;
 - exploratory troubleshooting wrappers;
 - local machine paths or user-specific directories.
 
