@@ -8,7 +8,7 @@ Before a public release, confirm that the repository contains:
 - configuration templates and documentation;
 - a provenance map in `docs/provenance/`;
 - no raw publisher PDFs or publisher-owned figure crops;
-- no manuscript display-item drawing code;
+- no manuscript figure-generation code;
 - no local working directories or user-specific paths;
 - no exploratory troubleshooting scripts, environment tests, or exploratory run wrappers.
 
