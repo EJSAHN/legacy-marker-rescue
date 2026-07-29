@@ -20,4 +20,4 @@ python scripts/validate_source_data.py --workbook source_data/Supplementary_Data
 python -m pytest
 ```
 
-The repository DOI in `CITATION.cff` can remain as `10.5281/zenodo.TBD` until the archival release is created.
+An archival DOI will be added after a versioned software release is deposited.
