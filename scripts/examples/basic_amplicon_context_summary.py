@@ -14,7 +14,7 @@ def main():
     cfg = load_config(args.config)
     outdir = Path(cfg["project"]["output_dir"])
     amplicons = read_tsv(outdir / "rapd_amplicons.tsv")
-    # This example summarizes predicted amplicon sizes. Manuscript-level context summaries are validated from the source-data workbook.
+    # This example summarizes predicted amplicon sizes. Reported context summaries are validated from the source-data workbook.
     sizes = [int(r["amplicon_size_bp"]) for r in amplicons]
     summary = [{
         "n_amplicons": len(sizes),
