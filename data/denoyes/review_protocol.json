@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "dataset_id": "denoyes_figure1_review",
+  "image_sha256": "3553b6197fe31815b87ed98668d353ef002aaba63e6b10729a4666430aa2b1bf",
+  "width_px": 774,
+  "height_px": 674,
+  "panel_bounds": {
+    "A_OPC02": [
+      0,
+      185,
+      774,
+      405
+    ],
+    "B_OPA13": [
+      0,
+      414,
+      774,
+      674
+    ]
+  },
+  "panel_bounds_note": "Broad acquisition windows enclosing each gel and surrounding space. Not lane boundaries, expected sample counts, or reference calls. Reviewers draw all lane regions themselves.",
+  "band_reference": "Manually clicked centers of definite visible bands. Uncertain bands and unreadable rectangles are recorded separately.",
+  "primary_y_tolerance_px": 3.0,
+  "sensitivity_y_tolerances_px": [
+    1.0,
+    5.0
+  ],
+  "matching": "Within each independently drawn readable sample lane, maximum-cardinality one-to-one matching, then minimum total absolute y displacement. Archived predicted lane labels are not used for spatial matching.",
+  "exclusion_policy": "Marker, gap, unreadable and unresolved-role lanes are not sample evaluation lanes. Predictions within pre-recorded unreadable rectangles or 3 native pixels of an uncertain-band y coordinate in that lane are excluded. Definite reference centers overlapping an exclusion are rejected. All exclusions and out-of-scope predictions are counted separately.",
+  "scope_warning": "Lane-conditioned localization agreement with a human reading of a printed image. Not whole-dataset recovery, original biological band truth, or an external test set. Same image was used during development.",
+  "prior_exposure_required": true,
+  "annotation_policy": "Do not view comparison/ predictions during annotation. State any prior exposure honestly. An additional reader unfamiliar with algorithm outputs provides stronger independent evidence. One reader does not establish inter-reader reliability.",
+  "tolerance_note": "Tolerances are analyst-specified native-image localization allowances, locked before new manual annotations. They are not inferred biological size tolerances and are not optimized after scores are seen."
+}

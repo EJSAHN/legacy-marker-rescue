@@ -1,0 +1,11 @@
+{
+  "annotation_sha256": "03d0ac957593b2ac9c060349cea47d76ea7f39cc4b5e25bcfb2194aa7cc4ce56",
+  "source_annotation_modified": false,
+  "reader_clarification": "The reader stated that marks were not made at microscopic/pixel-exact resolution and were approximate; clear bands were marked as clear.",
+  "coverage_complete_assumed": false,
+  "pixel_centers_exact_assumed": false,
+  "prior_algorithm_exposure": true,
+  "evaluation_role": "Development observations, not exhaustive ground truth or held-out validation.",
+  "clarification_source": "Reader clarification recorded on 2026-09-21.",
+  "human_lane_geometry_used": true
+}

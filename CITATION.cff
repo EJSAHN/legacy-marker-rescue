@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: legacy-marker-rescue
+message: "Please cite this software and the source datasets used in your analysis."
+type: software
+license: MIT
+abstract: "Analysis of legacy molecular-marker images and genome-derived RAPD profiles."
+
+authors:
+  - family-names: Ahn
+    given-names: Ezekiel
+    orcid: "https://orcid.org/0000-0003-4447-4104"
+    affiliation: "United States Department of Agriculture, Agricultural Research Service"
+
+repository-code: "https://github.com/EJSAHN/legacy-marker-rescue"
+url: "https://github.com/EJSAHN/legacy-marker-rescue"
+version: "0.2.0"
+date-released: "2026-09-21"
+
+keywords:
+  - RAPD
+  - AFLP
+  - legacy data
+  - molecular ecology
+  - genome calibration
+  - banding records

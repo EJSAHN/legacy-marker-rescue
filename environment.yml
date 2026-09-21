@@ -1,0 +1,8 @@
+name: legacy-marker-rescue
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.19
+  - numpy=2.2.6
+  - scipy=1.15.2
+  - pillow=12.3.0

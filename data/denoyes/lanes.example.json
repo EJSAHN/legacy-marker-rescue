@@ -1,0 +1,563 @@
+{
+  "schema_version": "1.0",
+  "coordinate_system": "native_pixel_edges",
+  "image_sha256": "3553b6197fe31815b87ed98668d353ef002aaba63e6b10729a4666430aa2b1bf",
+  "width_px": 774,
+  "height_px": 674,
+  "panels": {
+    "A_OPC02": {
+      "lanes": [
+        {
+          "id": "lane_f55846e5-dcbd-485a-b4bc-3b4e0998f857",
+          "box": [
+            41.13332805518587,
+            198.4999972833019,
+            83.26665603151496,
+            391.56666070804215
+          ],
+          "label": "M",
+          "label_source": "printed_here",
+          "role": "marker",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_bd2c8bbd-319b-4130-b56a-3a50bf7b46b8",
+          "box": [
+            96.06667333269354,
+            197.43334698926913,
+            129.13332111578882,
+            392.09995533748315
+          ],
+          "label": "1341a",
+          "label_source": "printed_here",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_08f861e7-845b-474b-a00c-35c09455fe3b",
+          "box": [
+            131.2666522463893,
+            198.4999972833019,
+            162.2000299340355,
+            391.0333050434504
+          ],
+          "label": "162a",
+          "label_source": "printed_here",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_3bf7b622-e481-4e22-8d11-e170b425b005",
+          "box": [
+            388.3333128831405,
+            197.43333173048146,
+            419.26672108836243,
+            391.56664544925445
+          ],
+          "label": "120V2-II",
+          "label_source": "printed_here",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_fb842dfc-520f-49bb-8437-94ec6f8b7334",
+          "box": [
+            457.7428283691406,
+            197.58570098876953,
+            486.9999694824219,
+            390.9571304321289
+          ],
+          "label": "Coll.14a",
+          "label_source": "printed_here",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_268313c9-1b7b-4e15-8162-eb818ea53387",
+          "box": [
+            165.62857055664062,
+            198.50001525878906,
+            191.22854614257812,
+            390.95716857910156
+          ],
+          "label": "1641a",
+          "label_source": "printed_here",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_8f791ae1-5e6f-4f35-9946-351fcffde85a",
+          "box": [
+            195.80001831054688,
+            199.8714370727539,
+            225.51425170898438,
+            390.04285430908203
+          ],
+          "label": "2020a",
+          "label_source": "printed_here",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_ae7b4f4d-3976-4e51-baf5-eb418f963f3e",
+          "box": [
+            229.17141723632812,
+            200.3285675048828,
+            258.4285583496094,
+            388.6714324951172
+          ],
+          "label": "2033a",
+          "label_source": "printed_here",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_aae10c75-72c1-44d7-85e7-c4e0fe4abebd",
+          "box": [
+            262.0857238769531,
+            198.95716857910156,
+            289.0571594238281,
+            389.12855529785156
+          ],
+          "label": "2050a",
+          "label_source": "printed_here",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_91ab0f71-b884-474e-ba33-f9ab952b46d3",
+          "box": [
+            294.0857238769531,
+            198.04285430908203,
+            322.4285583496094,
+            387.7571334838867
+          ],
+          "label": "2077a",
+          "label_source": "printed_here",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_34b8714c-e839-42cf-b777-b0377101a460",
+          "box": [
+            326.9999694824219,
+            199.87142181396484,
+            355.3428649902344,
+            388.67147064208984
+          ],
+          "label": "2081a",
+          "label_source": "printed_here",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_7c28f7e1-f8bd-4cee-b9e6-c7f69c8fdc36",
+          "box": [
+            359.4571228027344,
+            200.32857513427734,
+            386.8857116699219,
+            389.5857162475586
+          ],
+          "label": "2102c",
+          "label_source": "printed_here",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_2026ee3a-3745-4eac-9dbc-359867125e66",
+          "box": [
+            424.8286437988281,
+            197.58570861816406,
+            454.0857238769531,
+            388.6714324951172
+          ],
+          "label": "RB-Ant-91E",
+          "label_source": "unresolved",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_9fbc2b7e-f6c6-4fb2-84da-505d7dbaa1d4",
+          "box": [
+            490.1999816894531,
+            198.0428695678711,
+            518.0857238769531,
+            389.1285629272461
+          ],
+          "label": "494a",
+          "label_source": "printed_here",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_0bd4b7ba-a594-4411-b7ac-e0c96592254c",
+          "box": [
+            522.6571350097656,
+            198.49998474121094,
+            549.1714172363281,
+            389.5857238769531
+          ],
+          "label": "BB Pop#11",
+          "label_source": "printed_here",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_17c9b998-2335-4634-8b06-005d24674c5c",
+          "box": [
+            556.4856872558594,
+            198.9571533203125,
+            581.1714172363281,
+            388.6714172363281
+          ],
+          "label": "BB Pop#19",
+          "label_source": "printed_here",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_2405c6da-e76a-46ec-b574-f079fe5466b8",
+          "box": [
+            589.8571472167969,
+            196.67144012451172,
+            614.0857238769531,
+            388.2142868041992
+          ],
+          "label": "BJS Tomato",
+          "label_source": "printed_here",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_71134b22-1d62-4fb3-aba5-7cb898f6d64e",
+          "box": [
+            629.6285705566406,
+            197.58574676513672,
+            651.1142883300781,
+            389.5857467651367
+          ],
+          "label": "M",
+          "label_source": "printed_here",
+          "role": "marker",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_b217a27b-a24e-4330-8e12-6d36d30d5126",
+          "box": [
+            664.8285827636719,
+            197.12861251831055,
+            689.9714050292969,
+            390.9571342468262
+          ],
+          "label": "1159.5d",
+          "label_source": "printed_here",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_beec769f-7e01-4126-913d-221513166ad3",
+          "box": [
+            698.2000427246094,
+            199.4143180847168,
+            727.4571228027344,
+            390.0428581237793
+          ],
+          "label": "1159.5e",
+          "label_source": "printed_here",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_f3e622ab-854e-47e0-a5f6-a23f6d75e8c5",
+          "box": [
+            732.0285339355469,
+            199.8714141845703,
+            761.7428894042969,
+            388.6714324951172
+          ],
+          "label": "86.16a",
+          "label_source": "printed_here",
+          "role": "sample",
+          "assessment": "readable"
+        }
+      ]
+    },
+    "B_OPA13": {
+      "lanes": [
+        {
+          "id": "lane_c776e26c-512a-450b-9c25-fc62d46e2520",
+          "box": [
+            47.228546142578125,
+            429.3571548461914,
+            85.17141723632812,
+            665.2428359985352
+          ],
+          "label": "M",
+          "label_source": "shared_header",
+          "role": "marker",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_4bba20b4-cc46-4d3a-b2ca-0d160f805f11",
+          "box": [
+            102.5428466796875,
+            429.3571548461914,
+            128.14285278320312,
+            667.5286026000977
+          ],
+          "label": "1341a",
+          "label_source": "shared_header",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_f79a173a-fb61-46b7-aa06-f8c467788cbf",
+          "box": [
+            131.79998779296875,
+            428.44287109375,
+            157.85714721679688,
+            667.5285949707031
+          ],
+          "label": "162a",
+          "label_source": "shared_header",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_5b9a91a6-bbea-49cf-aa07-6caf7a2c20a4",
+          "box": [
+            497.0571594238281,
+            427.9857482910156,
+            524.4856872558594,
+            666.6143493652344
+          ],
+          "label": "494a",
+          "label_source": "shared_header",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_494c9093-54fb-4cb1-ac95-60d5f7cf0ee1",
+          "box": [
+            165.17141723632812,
+            431.18570709228516,
+            193.97140502929688,
+            668.4429092407227
+          ],
+          "label": "1641a",
+          "label_source": "shared_header",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_82cbedea-2c38-41e8-8925-7b97552cff48",
+          "box": [
+            198.99996948242188,
+            429.3571472167969,
+            225.51425170898438,
+            670.7286148071289
+          ],
+          "label": "2020a",
+          "label_source": "shared_header",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_e9d580f4-9124-460f-8a6f-abee395f2f0e",
+          "box": [
+            230.99996948242188,
+            430.2714309692383,
+            256.6000061035156,
+            667.0714492797852
+          ],
+          "label": "2033a",
+          "label_source": "shared_header",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_8a7040bd-b73f-4c82-af55-a205c63c25c1",
+          "box": [
+            266.1999816894531,
+            428.4428482055664,
+            290.8857116699219,
+            665.6999893188477
+          ],
+          "label": "2050a",
+          "label_source": "shared_header",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_5e2ed4f9-a901-4c81-ad84-4de133154def",
+          "box": [
+            299.5714416503906,
+            429.3571548461914,
+            321.9714660644531,
+            666.6142959594727
+          ],
+          "label": "2077a",
+          "label_source": "shared_header",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_508dd85c-6c3f-4a01-a55a-aa079fa7e293",
+          "box": [
+            331.5714416503906,
+            428.4428482055664,
+            356.2571716308594,
+            665.2428359985352
+          ],
+          "label": "2081a",
+          "label_source": "shared_header",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_5e433c1e-6f32-4bfe-a2f6-0d6668674878",
+          "box": [
+            362.1999816894531,
+            428.4428482055664,
+            387.8000183105469,
+            665.6999893188477
+          ],
+          "label": "2102c",
+          "label_source": "shared_header",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_a99cdc94-da53-4b3f-a6f5-99187c120bed",
+          "box": [
+            396.0285339355469,
+            429.3571548461914,
+            422.5428771972656,
+            664.7857437133789
+          ],
+          "label": "120V2-II",
+          "label_source": "shared_header",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_1b43eeb1-28b8-40c9-b746-f7292235d682",
+          "box": [
+            428.0285339355469,
+            428.9000015258789,
+            456.8286437988281,
+            665.6999893188477
+          ],
+          "label": "RB-Ant-91E",
+          "label_source": "shared_header",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_b5c24191-23f6-4108-8729-8cebc8df63ed",
+          "box": [
+            460.9428405761719,
+            428.4428482055664,
+            492.9428405761719,
+            665.6999893188477
+          ],
+          "label": "Coll.14a",
+          "label_source": "shared_header",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_2e77e6ae-2988-42b6-9561-8ddb75317e75",
+          "box": [
+            531.3428649902344,
+            427.98572540283203,
+            554.6571350097656,
+            665.2428359985352
+          ],
+          "label": "BB Pop#11",
+          "label_source": "shared_header",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_019f0d59-8c8a-4ef4-b3d3-e152dcd4ade6",
+          "box": [
+            565.1714172363281,
+            428.4428482055664,
+            583.9142761230469,
+            666.1572036743164
+          ],
+          "label": "BB Pop#19",
+          "label_source": "shared_header",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_c619296a-2a88-4662-9ece-55f4139da559",
+          "box": [
+            596.2571105957031,
+            427.52860260009766,
+            622.7713928222656,
+            665.2428359985352
+          ],
+          "label": "BJS Tomato",
+          "label_source": "shared_header",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_a7fdd94e-bfff-48d3-86ba-f111d699e23f",
+          "box": [
+            628.7142639160156,
+            426.61429595947266,
+            656.1428527832031,
+            665.6999893188477
+          ],
+          "label": "M",
+          "label_source": "shared_header",
+          "role": "marker",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_cf34438c-215b-4974-b265-02ddd1da0190",
+          "box": [
+            663.9142761230469,
+            426.15714263916016,
+            686.7714538574219,
+            665.6999893188477
+          ],
+          "label": "1159.5d",
+          "label_source": "shared_header",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_28287d3a-3b72-426b-bacf-dd5a620522fb",
+          "box": [
+            697.7428894042969,
+            427.07141876220703,
+            721.0570983886719,
+            665.6999893188477
+          ],
+          "label": "1159.5e",
+          "label_source": "shared_header",
+          "role": "sample",
+          "assessment": "readable"
+        },
+        {
+          "id": "lane_060ebb5f-b4c0-4401-b52d-61111c6c7643",
+          "box": [
+            732.9428405761719,
+            427.52860260009766,
+            756.2571716308594,
+            666.1572036743164
+          ],
+          "label": "86.16a",
+          "label_source": "printed_here",
+          "role": "sample",
+          "assessment": "readable"
+        }
+      ]
+    }
+  }
+}
