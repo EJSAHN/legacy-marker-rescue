@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "original_primary_y_tolerance_px": 3.0,
+  "sensitivity_y_tolerances_px": [
+    1.0,
+    5.0
+  ],
+  "uncertain_neighborhood_px": 3.0,
+  "exclusion_modes": [
+    "recorded_masks",
+    "no_masks_diagnostic"
+  ],
+  "input_interpretation": "Approximate, incomplete, previously exposed single-reader observations, as clarified by the reader after the preliminary comparison. Blank positions do not establish absence. Unmatched candidates are not false positives. No specificity, accuracy, or biological F1 is estimated.",
+  "primary_variant": "primary",
+  "selection_by_agreement": false
+}

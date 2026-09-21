@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "benchmark_id": "gelgenie_source_transfer_v1",
+  "record_id": "14641949",
+  "record_doi": "10.5281/zenodo.14641949",
+  "record_version": "v3",
+  "record_url": "https://zenodo.org/records/14641949",
+  "article_doi": "10.1038/s41467-025-59189-0",
+  "collections": [
+    {"id": "quantitation_ladder_gels", "file": "quantitation_ladder_gels.zip", "md5": "627f7340d5372511691088c4e0195a06", "expected_image_pairs": 35, "role": "DNA_ladder_image_benchmark"},
+    {"id": "external_gels", "file": "external_gels.zip", "md5": "29b6ff6ca68b6c7768758fc2ad87678a", "expected_image_pairs": 25, "role": "heterogeneous_gel_stress_test_not_RAPD_specific"}
+  ],
+  "selection": "All paired images in both named archives, across all publisher partitions, before scores. No performance-based exclusions.",
+  "methods": ["image_lanes_native", "image_lanes_height256", "reference_x_envelopes_native"],
+  "primary_method": "image_lanes_native",
+  "preprocessing": {
+    "lower_percentile": 0.5,
+    "upper_percentile": 99.5,
+    "contrast_fallback": "min_max_only_if_percentiles_equal",
+    "polarity": "invert_if_normalized_median_greater_than_127p5",
+    "sensitivity_height_px": 256,
+    "max_image_pixels": 60000000
+  },
+  "image_lane_proposal": {
+    "vertical_opening_px": 31,
+    "x_smoothing_sigma_px": 2.0,
+    "minimum_projection_signal": 2.0,
+    "projection_fraction_of_p99": 0.15,
+    "close_gap_px": 2,
+    "minimum_envelope_width_px": 6,
+    "split_peak_distance_px": 8,
+    "split_peak_prominence_fraction": 0.25,
+    "maximum_lanes": 256
+  },
+  "reference": {
+    "mask_values": "0 background; 1 foreground (0/255 binary masks also supported with recorded encoding)",
+    "connectivity": 8,
+    "minimum_component_area": 1,
+    "oracle_geometry": "Union of foreground x projections, full image height, no reference y centers or per-band windows. Diagnostic only: uses reference geometry, merges x-overlapping lanes, cannot test empty-lane specificity."
+  },
+  "evaluation": {
+    "primary_tolerance_native_px": 3,
+    "sensitivity_tolerances_native_px": [0, 5],
+    "matching": "Maximum-cardinality one-to-one matching of candidate centers to connected reference foreground components within a Euclidean native-pixel-center tolerance. Tie-break minimizes distance to foreground pixels. All candidates and all reference components count.",
+    "reference_role": "Published annotated foreground components, not known biological loci or exact unambiguous band truth.",
+    "include_ladders_and_unknown_roles": true,
+    "mask_derived_geometry_in_primary": false,
+    "no_parameter_selection_from_scores": true
+  },
+  "interpretation": "External source transfer of point detection. Not full segmentation Dice, RAPD genotype accuracy, taxonomic transfer, or a head-to-head GelGenie model comparison. Height-normalized and reference-geometry results remain separate diagnostics."
+}
